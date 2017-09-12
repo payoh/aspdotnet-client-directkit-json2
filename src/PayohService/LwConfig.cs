@@ -1,4 +1,4 @@
-﻿namespace com.lemonway
+﻿namespace com.payoh
 {
 	/// <summary>
 	/// BackOffice credentials is required for each LwRequest

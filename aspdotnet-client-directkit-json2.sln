@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "aspdotnet-client-directkit-json2", "src\aspdotnet-client-directkit-json2\aspdotnet-client-directkit-json2.xproj", "{7AF7A26F-A0E4-49A6-A268-74BB5046ED35}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LemonWayService", "src\LemonWayService\LemonWayService.xproj", "{1859A86C-CD3D-4DC1-A051-9CA64944DF1F}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PayohService", "src\PayohService\PayohService.xproj", "{1859A86C-CD3D-4DC1-A051-9CA64944DF1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C3B2FD81-D347-428D-9A3C-B3EA20E46D79}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LemonWayService.Tests", "test\LemonWayService.Tests\LemonWayService.Tests.xproj", "{CB63E591-825C-4AD8-BCA9-2FF39F1B8CB7}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PayohService.Tests", "test\PayohService.Tests\PayohService.Tests.xproj", "{CB63E591-825C-4AD8-BCA9-2FF39F1B8CB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

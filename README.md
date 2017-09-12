@@ -1,12 +1,12 @@
-This project shows how to use the Lemonway Service in an [ASP.NET Core](https://www.asp.net/core) application.
+This project shows how to use the Payoh Service in an [ASP.NET Core](https://www.asp.net/core) application.
 
 You can find a more simple exemple on a Console [.Net core](https://www.microsoft.com/net/core) Application here:
 
 https://github.com/lemonwaysas/csharp-client-directkit-json2
 
-# `LemonWayService` project library
+# `PayohService` project library
 
-The `LemonWayService` is an independent library which you can carry on other projects "as is". 
+The `PayohService` is an independent library which you can carry on other projects "as is". 
 * It introduces some helpers to make you more comfortable while interacting with our API.
 * You can publish it on nuget if you want.
 
@@ -50,24 +50,24 @@ Read the `LwServiceTests.cs` to see how it work, you should see the same code as
 
 Run them with
 ```
-cd test/LemonWayService.Tests
+cd test/PayohService.Tests
 dotnet test
 ```
 
-# How to integrate the `LemonWayService` project to the ASP.NET application
+# How to integrate the `PayohService` project to the ASP.NET application
 
-This commit show all the changes on the ASP.NET application in order to call a [`GetWalletDetails` function](http://documentation.lemonway.fr/api-en/directkit/manage-wallets/getwalletdetails-getting-detailed-wallet-data)
+This commit show all the changes on the ASP.NET application in order to call a [`GetWalletDetails` function](https://payoh.me/documentazione/api/directkit.wallets.get-details)
 in a Controller.
-https://github.com/lemonwaysas/aspdotnet-client-directkit-json2/commit/372c49a0b88f50616661f21743bd6ad0dbe55488
+https://github.com/payoh/aspdotnet-client-directkit-json2/commit/372c49a0b88f50616661f21743bd6ad0dbe55488
 
 In resume:
-* The LemonWay Service is configured in the `appsettings.json` (section `LemonWay`).
+* The Payoh Service is configured in the `appsettings.json` (section `Payoh`).
 * The service is register as a Singleton in the default DI Container (`Startup.cs`).
 * Other configuration is passe to Controllers through the OptionsService.
 * The `IEndUserInfoProvider` is implemented using the HttpContext to extract EndUser IP, and UserAgent.
 * The `LwRequestFactory` has not been used, because it is not neccessary.
 
-It is only one way to do get thing done. You might come up with many other way. You might not use  `LemonWayService` library but make other one.
+It is only one way to do get thing done. You might come up with many other way. You might not use  `PayohService` library but make other one.
 
 
 # Development

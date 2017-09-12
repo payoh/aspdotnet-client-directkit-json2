@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace com.lemonway
+namespace com.payoh
 {
 	/// <summary>
 	/// EndUserInfo is required in the LwRequest

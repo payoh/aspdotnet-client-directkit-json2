@@ -1,4 +1,4 @@
-﻿namespace com.lemonway
+﻿namespace com.payoh
 {
 	/// <summary>
 	/// Provide the EndUserInfo (IP + UserAgent)

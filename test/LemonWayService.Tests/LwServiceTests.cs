@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Xunit;
 
-namespace com.lemonway
+namespace com.payoh
 {
 	public class LwServiceTests
 	{
@@ -31,8 +31,8 @@ namespace com.lemonway
 		}
 
 		/// <summary>
-		/// read the LemonWay's documentation to know what to put in the request
-		/// http://documentation.lemonway.fr/api-en/directkit/manage-wallets/getwalletdetails-getting-detailed-wallet-data
+		/// read the Payoh's documentation to know what to put in the request
+		/// https://payoh.me/documentazione/api/directkit.wallets.get-details
 		/// </summary>
 		[Fact]
 		public void GetWalletDetails_test()
@@ -45,7 +45,7 @@ namespace com.lemonway
 		}
 
 		/// <summary>
-		/// The LemonwayService return a Business error
+		/// The PayohService return a Business error
 		/// </summary>
 		[Fact]
 		public void GetWalletDetails_ThrowBusinessError_test()
@@ -58,7 +58,7 @@ namespace com.lemonway
 		}
 
 		/// <summary>
-		/// The LemonwayService return a Business error, but won't throw any exception
+		/// The PayohService return a Business error, but won't throw any exception
 		/// </summary>
 		[Fact]
 		public void GetWalletDetails_BusinessError_test()

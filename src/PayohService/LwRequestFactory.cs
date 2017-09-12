@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace com.lemonway
+namespace com.payoh
 {
 	/// <summary>
 	/// Persiste the configuration through request creation

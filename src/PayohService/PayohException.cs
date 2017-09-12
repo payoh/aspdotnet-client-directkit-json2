@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace com.lemonway
+namespace com.payoh
 {
-	public class LemonWayException: Exception
+	public class PayohException: Exception
 	{
-		public LemonWayException(string message): base(message)
+		public PayohException(string message): base(message)
 		{
 
 		}	
@@ -16,7 +16,7 @@ namespace com.lemonway
 	/// <summary>
 	/// Technical error Network, Connection when connect to the Service
 	/// </summary>
-	public class ServiceException : LemonWayException
+	public class ServiceException : PayohException
 	{
 		public ServiceException(string message) : base(message)
 		{
@@ -25,9 +25,9 @@ namespace com.lemonway
 	}
 
 	/// <summary>
-	/// Receive a reponse for Lemonway but it is a business erreur. ("Wallet not exist", "Amount is too high"..)
+	/// Receive a reponse for Payoh but it is a business erreur. ("Wallet not exist", "Amount is too high"..)
 	/// </summary>
-	public class BusinessException : LemonWayException
+	public class BusinessException : PayohException
 	{
 		public string ErrorCode { get; private set; }
 		public string ErrorMessage { get; private set; }

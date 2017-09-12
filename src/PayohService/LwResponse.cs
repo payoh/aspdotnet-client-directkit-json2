@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 
-namespace com.lemonway
+namespace com.payoh
 {
 	/// <summary>
 	/// All directkit json response is wrapped in the "d" object to prevent json-hijack issue

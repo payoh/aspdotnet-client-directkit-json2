@@ -5,7 +5,7 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace com.lemonway
+namespace com.payoh
 {
 	public interface ILwService
 	{
@@ -15,7 +15,7 @@ namespace com.lemonway
 	}
 
 	/// <summary>
-	/// Helper to call LemonwayService
+	/// Helper to call PayohService
 	/// </summary>
 	public class LwService: ILwService
 	{

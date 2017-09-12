@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace com.lemonway
+namespace com.payoh
 {
 	public class LwRequestTests
 	{
